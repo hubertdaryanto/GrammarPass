@@ -1,4 +1,4 @@
-from menu import printMenu, callMenu
+from modul.menu import printMenu, callMenu
 
 chooseMenu = 0
 while(chooseMenu != 3):
