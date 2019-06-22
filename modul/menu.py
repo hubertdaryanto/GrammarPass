@@ -3,8 +3,8 @@ from modul.docChecker import checkThis
 import os
 
 
-def menu_1():
-    sentence = readFile()
+def menu_1(input):
+    sentence = readFile(input)
     checkThis(sentence)
     input()
 
@@ -29,7 +29,7 @@ def printMenu():
 
 def callMenu(number):
     if (number == 1):
-        menu_1()
+        menu_1(input)
     elif(number == 2):
         menu_2()
     elif(number == 3):
