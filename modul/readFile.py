@@ -1,5 +1,4 @@
 import docx2txt
-import fnmatch
 import os
 from nltk.tokenize import RegexpTokenizer
 from nltk.corpus import stopwords

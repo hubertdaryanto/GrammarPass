@@ -6,11 +6,10 @@ import os
 def menu_1(input):
     sentence = readFile(input)
     checkThis(sentence)
-    input()
 
 
-def menu_2():
-    newWord = str(input("Input a new word: "))
+def menu_2(input):
+    newWord = str(input)
     newWord = "\n" + newWord
     file = open("modul\\linuxwords.txt", 'a')
     file.write(newWord)
